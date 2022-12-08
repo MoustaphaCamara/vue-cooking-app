@@ -1,0 +1,44 @@
+:root {
+  --bgcolor: #242424;
+  --fontcolor: rgba(255, 255, 255, 0.87);
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: lighter;
+
+  color-scheme: light dark;
+  color: var(--fontcolor);
+  background-color: var(--bgcolor);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  background: linear-gradient(to right, transparent, black, transparent);
+  padding: 8px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+input[type="text"] {
+  padding: 8px;
+  border-radius: 8px;
+}
