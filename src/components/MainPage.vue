@@ -10,8 +10,12 @@
     placeholder="looking for ?"
   />
   <div class="app-container">
+    <p id="noData">Aucun résultat pour cette recherche..</p>
     <MealList :meals="meals" />
   </div>
+  <footer>
+    <p>© Moustapha Camara - 2022</p>
+  </footer>
 </template>
 
 <script>
@@ -34,6 +38,11 @@ export default {
   },
   methods: {
     fetchData() {
+      if (this.meals == null && this.text !== "") {
+        noData.style.display = "block";
+      } else {
+        noData.style.display = "none";
+      }
       axios
         .get(
           `https://www.themealdb.com/api/json/v1/1/search.php?s=${this.text}`
@@ -49,9 +58,10 @@ export default {
 
 <style>
 h3 {
-  color: #555555;
+  color: var(--gray2);
+  filter: brightness(120%);
 }
 h3 + p {
-  color: #454545;
+  color: var(--gray1);
 }
 </style>

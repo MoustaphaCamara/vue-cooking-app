@@ -1,6 +1,10 @@
 :root {
   --bgcolor: #242424;
+  --bgcolor2: #101010;
+  --bgcolor3: #181818;
   --fontcolor: rgba(255, 255, 255, 0.87);
+  --gray1: #454545;
+  --gray2: #555;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;

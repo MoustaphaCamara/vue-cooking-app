@@ -30,8 +30,8 @@ export default {
   flex: 1 0 25%;
   min-width: 200px;
   max-width: 280px;
-  background: #101010;
-  border: 1px solid #454545;
+  background: var(--bgcolor2);
+  border: 1px solid var(--gray1);
   margin: 0.5rem;
   padding: 0.5rem;
   position: relative;
@@ -80,12 +80,12 @@ h2 {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: black;
 }
 ::-webkit-scrollbar-thumb {
-  background: #454545;
+  background: var(--gray1);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--gray2);
 }
 </style>

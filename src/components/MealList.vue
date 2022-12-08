@@ -22,7 +22,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: #181818;
+  background: var(--bgcolor3);
   /* border: 1px solid var(--fontcolor); */
   margin-top: 30px;
 }
