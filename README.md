@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+# Cooking App made with Vue3 in Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+I first made use of the MealDbAPI when learning React. Since I am now learning Vue, I figured why not try again with this API I already know so I can focus on how to handle Vue syntax & props passing through components, rather than exploring a new API. That is to come, next.
+This is my first app with VueJs.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [React version of cooking app](https://github.com/MoustaphaCamara/react-cooking-app)
